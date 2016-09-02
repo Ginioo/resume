@@ -14,6 +14,7 @@ const common = {
   // We'll be using the latter form given it's
   // convenient with more complex configurations.
   entry: {
+    vendor: ['react'],
     app: PATHS.app
   },
   output: {
@@ -34,12 +35,19 @@ switch(process.env.npm_lifecycle_event) {
   case 'build':
     config = merge(
       common,
+      {
+        devtool: 'source-map'
+      },
+      parts.minify(),
       parts.setupCSS(PATHS.app)
     );
     break;
   default:
     config = merge(
       common,
+      {
+        devtool: 'eval-source-map'
+      },
       parts.setupCSS(PATHS.app),
       parts.devServer({
         // Customize host/port here if needed
