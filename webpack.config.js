@@ -5,7 +5,7 @@ const validate = require('webpack-validator');
 const parts = require('./libs/parts');
 
 const PATHS = {
-  app: path.join(__dirname, 'app'),
+  app: path.join(__dirname, 'src'),
   build: path.join(__dirname, 'build')
 };
 
@@ -23,7 +23,13 @@ const common = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Webpack demo'
+      title: "Resume",
+      baseHref: "/",
+      filename: "index.html",
+      template: "templates/index.html",
+      minify: false,
+      hash: true,
+      cache: true
     })
   ]
 };
@@ -39,7 +45,8 @@ switch(process.env.npm_lifecycle_event) {
         devtool: 'source-map'
       },
       parts.minify(),
-      parts.setupCSS(PATHS.app)
+      parts.setupCSS(PATHS.app),
+      parts.setupBabel()
     );
     break;
   default:
@@ -49,6 +56,7 @@ switch(process.env.npm_lifecycle_event) {
         devtool: 'eval-source-map'
       },
       parts.setupCSS(PATHS.app),
+      parts.setupBabel(),
       parts.devServer({
         // Customize host/port here if needed
         host: process.env.IP,

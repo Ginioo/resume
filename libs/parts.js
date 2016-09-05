@@ -82,4 +82,18 @@ exports.minify = function() {
       })
     ]
   };
-}
+};
+
+exports.setupBabel = function() {
+  return {
+    module: {
+      loaders: [
+        {
+          test: /\.(js|jsx)$/,
+          loader: "babel",
+          exclude: /node_modules/
+        }
+      ]
+    }
+  };
+};

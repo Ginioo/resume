@@ -1,0 +1,33 @@
+body {
+  background: #222;
+  color: white;
+  font-size: 0.9em;
+}
+
+.command-box, input {
+  background: #222;
+  color: #bada55;
+  font-size: 0.9em;
+  border: none;
+  outline: none;
+}
+
+.command-history {
+  font-size: 0.9em;
+  list-style-type: none;
+}
+
+.who-is-this {
+  color: grey;
+}
+
+.profile img {
+  border-radius: 8px;
+  display: none;
+}
+
+.instruction {
+  color: #bada55;
+  font-size: 1em;
+  list-style: none; /* Remove list bullets */
+}
