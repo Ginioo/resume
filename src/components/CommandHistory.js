@@ -5,8 +5,8 @@ import WhoIsThis from './WhoIsThis';
 
 class CommandHistory extends Component {
   render() {
-    const list = this.props.commands.map((command) => (
-      <div key={command}>
+    const list = this.props.commands.map((command, index) => (
+      <div key={index}>
         <WhoIsThis />{command}
       </div>
     ));
