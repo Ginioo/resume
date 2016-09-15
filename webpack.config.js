@@ -21,7 +21,7 @@ const common = {
   },
   output: {
     path: PATHS.build,
-    filename: '[name].[chunkhash]js',
+    filename: '[name].[hash]js',
     // This is used for require.ensure. The setup
     // will work without but the is useful to set.
     chunkFilename: '[chunkhash].js'
