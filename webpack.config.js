@@ -21,7 +21,7 @@ const common = {
   },
   output: {
     path: PATHS.build,
-    filename: '[name].[hash]js',
+    filename: '[name].[hash].js',
     // This is used for require.ensure. The setup
     // will work without but the is useful to set.
     chunkFilename: '[chunkhash].js'
@@ -49,6 +49,7 @@ switch(process.env.npm_lifecycle_event) {
       {
         devtool: 'source-map'
       },
+      parts.clean(PATHS.build),
       parts.extractBundle({
         name: 'vendor',
         entries: []
