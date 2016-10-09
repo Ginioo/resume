@@ -4,15 +4,14 @@ import {connect} from 'react-redux';
 export class ProfilePicture extends Component {
   render() {
     return (
-      <div>
-        <img />
+      <div className="profile-picture">
+          <img href="http:" />
       </div>
     );
   }
 }
 
 function mapStateToProps(state) {
-  console.log(state);
   return {show: state.commandBoxState.show};
 }
 
