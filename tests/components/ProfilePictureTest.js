@@ -25,7 +25,7 @@ describe('Component: ProfilePicture', () => {
             });
 
             it('should have property src', () => {
-                expect(component.find('div > img').props().href).to.equal("");
+                expect(component.find('div > img').props().src).to.equal("https://avatars0.githubusercontent.com/u/9994905?v=3&s=460");
             });
         });
     });
