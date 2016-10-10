@@ -6,8 +6,14 @@ import ConnectedProfilePicture, {ProfilePicture} from '../../src/components/Prof
 describe('Component: ProfilePicture', () => {
     let component;
 
-    beforeEach(() => {
-        component = mount(<ProfilePicture />);
+    before(() => {
+        component = mount(
+            <ProfilePicture
+                name="Gino Wu"
+                src="https://avatars0.githubusercontent.com/u/9994905?v=3&s=460"
+                display="block"
+            />
+        );
     });
 
     describe('div element', () => {
@@ -19,6 +25,10 @@ describe('Component: ProfilePicture', () => {
             expect(component.find('div.profile-picture').length).to.equal(1);
         });
 
+        it('should be visible', () => {
+            expect(component.find('div.block').length).to.equal(1);
+        });
+
         describe('img element', () => {
             it('should have a img element', () => {
                 expect(component.find('div > img')).to.have.length(1);
@@ -26,6 +36,10 @@ describe('Component: ProfilePicture', () => {
 
             it('should have property src', () => {
                 expect(component.find('div > img').props().src).to.equal("https://avatars0.githubusercontent.com/u/9994905?v=3&s=460");
+            });
+
+            it('should have property name', () => {
+                expect(component.find('div > label').text()).to.equal("Gino Wu");
             });
         });
     });
