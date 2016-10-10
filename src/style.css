@@ -1,28 +1,20 @@
 body {
-    background: #222;
-    color: white;
-    font-size: 0.9em;
-}
-
-.command-box, input {
-    background: #222;
-    color: #bada55;
-    font-size: 0.9em;
-    border: none;
-    outline: none;
-}
-
-.command-history {
-    font-size: 0.9em;
-    list-style-type: none;
-}
-
-.who-is-this {
-    color: grey;
+    font-size: 1em;
 }
 
 .profile-picture {
-    border-radius: 15px;
+    border: 0.2em solid grey;
+    border-radius: 0.5em;
+    text-align: center;
+}
+
+.profile-picture img {
+    width: 100%;
+    border-radius: 0.5em;
+}
+
+.profile-picture label {
+    color: grey;
 }
 
 .block {
@@ -31,10 +23,4 @@ body {
 
 .none {
     display: none;
-}
-
-.instruction {
-    color: #bada55;
-    font-size: 1em;
-    list-style: none; /* Remove list bullets */
 }

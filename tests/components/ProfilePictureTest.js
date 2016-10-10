@@ -11,7 +11,6 @@ describe('Component: ProfilePicture', () => {
             <ProfilePicture
                 name="Gino Wu"
                 src="https://avatars0.githubusercontent.com/u/9994905?v=3&s=460"
-                display="block"
             />
         );
     });
@@ -23,10 +22,6 @@ describe('Component: ProfilePicture', () => {
 
         it('should have a correct css class', () => {
             expect(component.find('div.profile-picture').length).to.equal(1);
-        });
-
-        it('should be visible', () => {
-            expect(component.find('div.block').length).to.equal(1);
         });
 
         describe('img element', () => {

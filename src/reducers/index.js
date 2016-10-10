@@ -1,10 +1,8 @@
 import {combineReducers} from 'redux';
-import commandBoxReducer from './CommandBox';
-import profilePictureVisibilityReducer from './ProfilePictureVisibility';
+import profilePictureReducer from './ProfilePicture';
 
 const rootReducer = combineReducers({
-    commandBoxState: commandBoxReducer,
-    profilePictureVisibility: profilePictureVisibilityReducer
+    profilePictureState: profilePictureReducer
 });
 
 export default rootReducer;

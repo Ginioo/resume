@@ -6,6 +6,7 @@ export class ProfilePicture extends Component {
         return (
             <div className={`profile-picture ${this.props.display}`}>
                 <label>{this.props.name}</label>
+                <br />
                 <img src={this.props.src}/>
             </div>
         );
@@ -13,7 +14,7 @@ export class ProfilePicture extends Component {
 }
 
 function mapStateToProps(state) {
-    return {display: state.profilePictureVisibility.display};
+    return {display: state.profilePictureState.display};
 }
 
 export default connect(mapStateToProps)(ProfilePicture);
