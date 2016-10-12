@@ -17,7 +17,7 @@ describe('Component: ProfilePicture', () => {
 
     describe('div element', () => {
         it('should have a div element', () => {
-            expect(component.find('div')).to.have.length(1);
+            expect(component.find('div')).to.have.length(5);
         });
 
         it('should have a correct css class', () => {
@@ -34,7 +34,7 @@ describe('Component: ProfilePicture', () => {
             });
 
             it('should have property name', () => {
-                expect(component.find('div > label').text()).to.equal("Gino Wu");
+                expect(component.find('div h3').text()).to.equal("Gino Wu");
             });
         });
     });
