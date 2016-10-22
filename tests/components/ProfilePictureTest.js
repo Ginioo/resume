@@ -17,7 +17,7 @@ describe('Component: ProfilePicture', () => {
 
     describe('div element', () => {
         it('should have a div element', () => {
-            expect(component.find('div')).to.have.length(5);
+            expect(component.find('div')).to.have.length(4);
         });
 
         it('should have a correct css class', () => {

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register --require ./tests/setup.js --recursive ./tests/components/ProfilePictureTest.js",
+    "test": "mocha --compilers js:babel-core/register --require ./tests/setup.js --recursive ./tests/components",
     "bak": "mocha --compilers js:babel-core/register --require ./tests/test_helper.js --recursive ./tests",
     "build": "webpack",
     "start": "webpack-dev-server",
