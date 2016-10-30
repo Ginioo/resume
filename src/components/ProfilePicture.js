@@ -9,6 +9,7 @@ export class ProfilePicture extends Component {
                     <div className="thumbnail text-center">
                         <div className="caption">
                             <h3>{this.props.name}</h3>
+                            <h6>{this.props.title}</h6>
                         </div>
                         <img src={this.props.src}/>
                     </div>

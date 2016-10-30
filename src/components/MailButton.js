@@ -5,9 +5,11 @@ export class MailButton extends Component {
         return (
             <div className="mail-box">
                 <div className="row">
-                    {/*<button type="button" className="btn btn-default btn-lg">*/}
+                    <a href="mailto:nikeorz@gmail.com">
                         <span className="glyphicon glyphicon-envelope"></span>
-                    {/*</button>*/}
+                        <span>Send an Email</span>
+                    </a>
+
                 </div>
             </div>
 

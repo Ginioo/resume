@@ -21,11 +21,11 @@ describe('Component: MailButton', () => {
 
         describe('span element', () => {
             it('should have a span element', () => {
-                expect(component.find('button > span')).to.have.length(1);
+                expect(component.find('a > span')).to.have.length(2);
             });
 
             it('should have a correct css class', () => {
-                expect(component.find('button > span.glyphicon.glyphicon-envelope').length).to.equal(1);
+                expect(component.find('a > span.glyphicon.glyphicon-envelope').length).to.equal(1);
             });
         });
     });

@@ -10,6 +10,7 @@ export default class App extends Component {
                     <MailButton />
                     <ProfilePicture
                         name="Gino Wu"
+                        title="Web Developer"
                         src="https://avatars0.githubusercontent.com/u/9994905?v=3&s=460"
                     />
                 </div>
