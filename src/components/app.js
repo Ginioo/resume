@@ -21,7 +21,7 @@ export default class App extends Component {
                         [tech stack : scale]
                         <ul>
                             <li> php 5.x : 6</li>
-                            <li> laravel 5.x  : 6</li>
+                            <li> laravel 5.x : 6</li>
                             <li> phalcon : 3</li>
                             <li> composer : 6</li>
                             <li> git : 6</li>
@@ -41,7 +41,7 @@ export default class App extends Component {
                             <li> mocha : 5</li>
                             <li> nightwatchjs : 6</li>
                         </ul>
-                        </div>
+                    </div>
                 </div>
             </div>
         );
