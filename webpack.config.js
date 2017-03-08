@@ -68,6 +68,7 @@ switch (process.env.npm_lifecycle_event) {
       parts.setupJSON(),
       parts.extractCSS(),
       parts.setupCSS(PATHS.appStyle),
+      parts.setupFonts(),
       parts.setupBabel()
     );
     break;

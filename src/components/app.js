@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
-import '../styles/index.scss';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap';
 
+import '../styles/index.scss';
 import '../styles/css/freelancer.css';
-import '../styles/css/bootstrap.css';
 import '../styles/css/font-awesome.css';
 
 import NavBar from './NavBar';
