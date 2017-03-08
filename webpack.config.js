@@ -12,7 +12,7 @@ const PATHS = {
   appStyle: path.join(__dirname, 'src', 'style'),
   appImage: path.join(__dirname, 'src', 'images'),
   build: path.join(__dirname, 'build'),
-  baseHref: '' // baseHref: '/starter/'
+  baseHref: '/resume/' // baseHref: '/starter/'
 };
 
 const common = {

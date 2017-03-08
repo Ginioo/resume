@@ -10,6 +10,7 @@ import NavBar from './NavBar';
 import Header from './Header';
 import Intro from './Intro';
 import Experiences from './Experiences';
+import Footer from './Footer';
 
 export default class App extends Component {
 
@@ -20,6 +21,7 @@ export default class App extends Component {
         <Header />
         <Intro />
         <Experiences />
+        <Footer />
         {this.props.children}
       </div>
 
