@@ -9,7 +9,7 @@ export default class Header extends Component {
         <div className="container" id="maincontent">
           <div className="row">
             <div className="col-lg-12">
-              <img className="img-responsive profile" src={profile} alt="" />
+              {/*<img className="img-responsive profile" src={profile} alt="" />*/}
                 <div className="intro-text">
                   <h2 className="name">GINO WU</h2>
                   <hr className="star-light" />
