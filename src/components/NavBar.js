@@ -38,6 +38,9 @@ export default class NavBar extends Component {
               <li className="page-scroll">
                 <a href="#experiences">Experiences</a>
               </li>
+              <li className="page-scroll">
+                <a href="#languages">Languages</a>
+              </li>
             </ul>
           </div>
         </div>
