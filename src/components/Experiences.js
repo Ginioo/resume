@@ -14,7 +14,6 @@ export default class Experiences extends Component {
           <div className="row">
             <div className="col-lg-8 col-lg-offset-2">
               <ul>
-                <li><p>Currently I'm preparing TOEFL and GRE exams</p></li>
                 <li><p>2 May 2016 - 30 Sep 2016 Bloomon (full-stack)</p></li>
                 <li><p>16 Feb 2012 - 29 Apr 2016 Taiwan Mobile Co Ltd. (backend)</p></li>
               </ul>

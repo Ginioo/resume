@@ -9,7 +9,7 @@ export default class Footer extends Component {
           <div className="container">
             <div className="row">
               <div className="footer-col col-lg-4  col-lg-offset-2">
-                <h2 className="name">Linded In</h2>
+                <h2 className="name">Linked In</h2>
                 <ul className="list-inline">
                   <li>
                     <a href="https://www.linkedin.com/in/gino-wu-077151b6/" className="btn-social btn-outline"><span className="sr-only">Linked In</span><i className="fa fa-fw fa-linkedin"></i></a>
