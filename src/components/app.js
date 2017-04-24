@@ -10,21 +10,20 @@ import NavBar from './NavBar';
 import Header from './Header';
 import Intro from './Intro';
 import Experiences from './Experiences';
-import Languages from './Languages';
+// import Languages from './Languages';
 import Footer from './Footer';
 
 export default class App extends Component {
 
   render() {
     return (
-      <div id="page-top" className="index">
+      <div id="page-top">
         <NavBar />
         <Header />
-        <Intro />
         <Experiences />
-        <Languages />
+        <Intro />
+        {/*<Languages />*/}
         <Footer />
-        {this.props.children}
       </div>
 
     );

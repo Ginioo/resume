@@ -4,8 +4,6 @@ export default class NavBar extends Component {
   constructor(props) {
     super(props);
     this.state = {isToggleOn: false};
-
-    // This binding is necessary to make `this` work in the callback
     this.handleClick = this.handleClick.bind(this);
   }
 
@@ -33,10 +31,10 @@ export default class NavBar extends Component {
                 <a href="#page-top"></a>
               </li>
               <li className="page-scroll">
-                <a href="#intro">Introduction</a>
+                <a href="#experiences">Experiences</a>
               </li>
               <li className="page-scroll">
-                <a href="#experiences">Experiences</a>
+                <a href="#intro">Introduction</a>
               </li>
               <li className="page-scroll">
                 <a href="#languages">Languages</a>

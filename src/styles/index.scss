@@ -5,3 +5,38 @@
 .intro p {
   text-indent: 20px;
 }
+
+.heading {
+  text-align: center;
+  font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #161f29;
+
+}
+
+.heading-2 {
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    text-align: left;
+    border-bottom: 2px solid #2C3E50;
+    border-right: 5px solid #2C3E50;
+  }
+}
+
+.heading-light {
+  @extend .heading;
+  border-color: white;
+  color: white;
+}
+
+#main {
+  //outline: none;
+}
+
+#intro p,
+#main span,
+#experiences span {
+  font-family: "Times New Roman", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

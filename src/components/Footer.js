@@ -8,17 +8,18 @@ export default class Footer extends Component {
         <div className="footer-above">
           <div className="container">
             <div className="row">
-              <div className="footer-col col-lg-4  col-lg-offset-2">
-                <h2 className="name">Linked In</h2>
+              <div className="footer-col col-lg-4">
                 <ul className="list-inline">
+                  <li>
+                    <a href="https://github.com/Ginioo" className="btn-social btn-outline"><span className="sr-only">Github</span><i className="fa fa-fw fa-github"></i></a>
+                  </li>
+                  <li>
+                    <a href="mailto:nikeorz@gmail.com?Subject=Are%20you%20interested%20in%20this%20offer" className="btn-social btn-outline"><span className="sr-only">Email Me</span><i className="fa fa-fw fa-envelope"></i></a>
+                  </li>
                   <li>
                     <a href="https://www.linkedin.com/in/gino-wu-077151b6/" className="btn-social btn-outline"><span className="sr-only">Linked In</span><i className="fa fa-fw fa-linkedin"></i></a>
                   </li>
                 </ul>
-              </div>
-              <div className="footer-col col-lg-4">
-                <h2 className="name">Email Me</h2>
-                <p><a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">nikeorz@gmail.com</a></p>
               </div>
             </div>
           </div>
