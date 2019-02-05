@@ -1715,7 +1715,7 @@ base@^0.11.1:
   dependencies:
     cache-base "^1.0.1"
     class-utils "^0.3.5"
-    component-emitter "^1.2.1"
+    components-emitter "^1.2.1"
     define-property "^1.0.0"
     isobject "^3.0.1"
     mixin-deep "^1.2.0"
@@ -2023,7 +2023,7 @@ cache-base@^1.0.1:
   integrity sha512-AKcdTnFSWATd5/GCPRxr2ChwIJ85CeyrEyjRHlKxQ56d4XJMGym0uAiKn0xbLOGOl3+yRpOTi484dVCEc5AUzQ==
   dependencies:
     collection-visit "^1.0.0"
-    component-emitter "^1.2.1"
+    components-emitter "^1.2.1"
     get-value "^2.0.6"
     has-value "^1.0.0"
     isobject "^3.0.1"
@@ -2354,7 +2354,7 @@ commondir@^1.0.1:
 
 component-emitter@^1.2.1:
   version "1.2.1"
-  resolved "https://registry.yarnpkg.com/component-emitter/-/component-emitter-1.2.1.tgz#137918d6d78283f7df7a6b7c5a63e140e69425e6"
+  resolved "https://registry.yarnpkg.com/components-emitter/-/components-emitter-1.2.1.tgz#137918d6d78283f7df7a6b7c5a63e140e69425e6"
   integrity sha1-E3kY1teCg/ffemt8WmPhQOaUJeY=
 
 compressible@~2.0.14:
@@ -2836,7 +2836,7 @@ decamelize@^2.0.0:
 
 decode-uri-component@^0.2.0:
   version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
+  resolved "https://registry.yarnpkg.com/decode-uri-components/-/decode-uri-components-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
   integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
 
 deep-equal@^1.0.1:
@@ -8700,7 +8700,7 @@ source-map-resolve@^0.5.0:
   integrity sha512-MjqsvNwyz1s0k81Goz/9vRBe9SZdB09Bdw+/zYyO+3CuPk6fouTaxscHkgtE8jKvf01kVfl8riHzERQ/kefaSA==
   dependencies:
     atob "^2.1.1"
-    decode-uri-component "^0.2.0"
+    decode-uri-components "^0.2.0"
     resolve-url "^0.2.1"
     source-map-url "^0.4.0"
     urix "^0.1.0"

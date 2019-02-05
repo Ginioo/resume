@@ -1,0 +1,12 @@
+.container {
+  border-bottom: 1px solid red;
+  position: relative;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
