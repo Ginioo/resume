@@ -1,22 +1,58 @@
 import React, {Component} from 'react';
+import {connect} from 'react-redux';
+import uuid from 'uuid';
+
 import NavBar from './Navbar';
 import Container from './Container';
 import Section from './Section';
+import Name from './Name';
+import Job from './Job';
 
 class App extends Component {
   render() {
+    const {cv} = this.props;
     return (
       <div id="app">
-        <NavBar/>
+        <NavBar mobile={cv.personalInfo.mobile}
+                email={cv.personalInfo.email}
+                linkedin={cv.personalInfo.linkedin}
+                github={cv.personalInfo.github}/>
         <Container>
-          <Section name="Summary">s</Section>
-          <Section name="Employment History">Employment History</Section>
-          <Section name="Education">Education</Section>
-          <Section name="Personal Info">Personal Info</Section>
+          <Name name={cv.name}/>
+          <Section name={cv.summary.title}>
+            {cv.summary.items && cv.summary.items.map(item => (
+              <ul key={uuid.v4()}>
+                <li>{item}</li>
+              </ul>
+            ))}
+          </Section>
+          <Section name={cv.employmentHistory.title}>
+            {cv.employmentHistory.jobs && cv.employmentHistory.jobs.map(job => (
+              <Job key={uuid.v4()} job={job}/>
+            ))}
+          </Section>
+          <Section name={cv.education.title}>
+            {cv.education.schools && cv.education.schools.map(school => (
+              <div key={uuid.v4()}>{school}</div>
+            ))}
+          </Section>
+          <Section name={cv.skillsAndTools.title}>
+            {cv.skillsAndTools.skillSet && cv.skillsAndTools.skillSet.map(skill => (
+              <ul key={uuid.v4()}>
+                <li>{skill}</li>
+              </ul>
+            ))}
+          </Section>
         </Container>
       </div>
     );
   }
 }
 
-export default App;
+const mapStateToProps = (state) => {
+  return {
+    cv: state.cv
+  };
+};
+
+export default connect(mapStateToProps)(App);

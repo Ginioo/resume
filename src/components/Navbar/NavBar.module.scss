@@ -10,11 +10,37 @@
   float: right;
 
   a {
-    margin: 0 5px;
     color: #6c757d;
+  }
 
-    i {
-      line-height: 50px;
-    }
+  i {
+    line-height: 50px;
+    color: #6c757d;
+    margin: 0 5px;
+  }
+}
+
+.mobile,
+.email,
+.linkedin {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.downloadPDF,
+.github {
+  display: none;
+}
+
+@media only screen {
+  .mobile,
+  .email,
+  .linkedin {
+    display: none;
+  }
+
+  .downloadPDF,
+  .github {
+    display: inline;
   }
 }
