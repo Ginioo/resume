@@ -8,7 +8,7 @@ class Job extends Component {
     return (
       <div id="job" className={styles.job}>
         <aside className={styles.date}>{job.date}</aside>
-        <div className={styles.head}>
+        <div className={styles.wrapper}>
           <span>{job.jobTitle}, {job.companyName}</span>
           <div className={styles.content}>
             {job.projects && job.projects.map(project => (

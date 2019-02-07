@@ -7,6 +7,7 @@ import Container from './Container';
 import Section from './Section';
 import Name from './Name';
 import Job from './Job';
+import SkillsAndTools from './SkillsAndTools';
 
 class App extends Component {
   render() {
@@ -37,11 +38,7 @@ class App extends Component {
             ))}
           </Section>
           <Section name={cv.skillsAndTools.title}>
-            {cv.skillsAndTools.skillSet && cv.skillsAndTools.skillSet.map(skill => (
-              <ul key={uuid.v4()}>
-                <li>{skill}</li>
-              </ul>
-            ))}
+            <SkillsAndTools/>
           </Section>
         </Container>
       </div>

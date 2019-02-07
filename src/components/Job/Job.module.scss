@@ -4,10 +4,10 @@
 
 .date {
   display: inline-block;
-  width: 180px;
+  width: 185px;
 }
 
-.head {
+.wrapper {
   display: inline-block;
   vertical-align: top;
   max-width: 800px;
@@ -17,5 +17,11 @@
   margin: 5px 0;
   ul {
     margin: 5px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    margin-left: 30px;
   }
 }
