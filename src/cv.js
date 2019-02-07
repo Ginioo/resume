@@ -11,7 +11,7 @@ export default {
     items: [
       "6+ years experiences in web development.",
       "Capable of resolving problems in systematic yet creative way.",
-      "Capable of communicating with two languages, Mandarin (Native) and English (Fair).",
+      "Capable of communicating in Chinese (Native) or in English (Fair).",
     ],
   },
   employmentHistory: {

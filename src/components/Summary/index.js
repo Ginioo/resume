@@ -7,7 +7,7 @@ class Summary extends Component {
   render() {
     const {items} = this.props.summary;
     return (
-      <div id="education">
+      <div id="summary">
         {items && items.map(item => (
           <ul key={uuid.v4()}>
             <li>{item}</li>
