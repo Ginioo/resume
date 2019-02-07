@@ -14,10 +14,7 @@ class App extends Component {
     const {cv} = this.props;
     return (
       <div id="app">
-        <NavBar mobile={cv.personalInfo.mobile}
-                email={cv.personalInfo.email}
-                linkedin={cv.personalInfo.linkedin}
-                github={cv.personalInfo.github}/>
+        <NavBar/>
         <Container>
           <Name name={cv.name}/>
           <Section name={cv.summary.title}>
