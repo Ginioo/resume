@@ -3,7 +3,7 @@ export default {
   personalInfo: {
     mobile: "+886 933941061",
     email: "nikeorz+offer@gmail.com",
-    linkedin: "linkedin.com/in/gino-feng-chin-wu-077151b6",
+    linkedin: "linkedin.com/in/gino-feng-chin-wu",
     github: "github.com/Ginioo",
   },
   summary: {
