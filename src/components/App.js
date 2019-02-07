@@ -7,6 +7,7 @@ import Container from './Container';
 import Section from './Section';
 import Name from './Name';
 import Job from './Job';
+import Summary from './Summary';
 import Education from './Education';
 import SkillsAndTools from './SkillsAndTools';
 
@@ -19,13 +20,7 @@ class App extends Component {
         <Container>
           <Name name={cv.name}/>
 
-          <Section name={cv.summary.title}>
-            {cv.summary.items && cv.summary.items.map(item => (
-              <ul key={uuid.v4()}>
-                <li>{item}</li>
-              </ul>
-            ))}
-          </Section>
+          <Section name={cv.summary.title}><Summary/></Section>
 
           <Section name={cv.employmentHistory.title}>
             {cv.employmentHistory.jobs && cv.employmentHistory.jobs.map(job => (
@@ -33,13 +28,9 @@ class App extends Component {
             ))}
           </Section>
 
-          <Section name={cv.education.title}>
-            <Education/>
-          </Section>
+          <Section name={cv.education.title}><Education/></Section>
 
-          <Section name={cv.skillsAndTools.title}>
-            <SkillsAndTools/>
-          </Section>
+          <Section name={cv.skillsAndTools.title}><SkillsAndTools/></Section>
         </Container>
       </div>
     );
