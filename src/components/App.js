@@ -1,48 +1,26 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import uuid from 'uuid';
-
 import NavBar from './Navbar';
 import Container from './Container';
 import Section from './Section';
 import Name from './Name';
-import Job from './Job';
+import Summary from './Summary';
+import EmploymentHistory from './EmploymentHistory';
+import Education from './Education';
+import SkillsAndTools from './SkillsAndTools';
 
 class App extends Component {
   render() {
     const {cv} = this.props;
     return (
       <div id="app">
-        <NavBar mobile={cv.personalInfo.mobile}
-                email={cv.personalInfo.email}
-                linkedin={cv.personalInfo.linkedin}
-                github={cv.personalInfo.github}/>
+        <NavBar/>
         <Container>
           <Name name={cv.name}/>
-          <Section name={cv.summary.title}>
-            {cv.summary.items && cv.summary.items.map(item => (
-              <ul key={uuid.v4()}>
-                <li>{item}</li>
-              </ul>
-            ))}
-          </Section>
-          <Section name={cv.employmentHistory.title}>
-            {cv.employmentHistory.jobs && cv.employmentHistory.jobs.map(job => (
-              <Job key={uuid.v4()} job={job}/>
-            ))}
-          </Section>
-          <Section name={cv.education.title}>
-            {cv.education.schools && cv.education.schools.map(school => (
-              <div key={uuid.v4()}>{school}</div>
-            ))}
-          </Section>
-          <Section name={cv.skillsAndTools.title}>
-            {cv.skillsAndTools.skillSet && cv.skillsAndTools.skillSet.map(skill => (
-              <ul key={uuid.v4()}>
-                <li>{skill}</li>
-              </ul>
-            ))}
-          </Section>
+          <Section name={cv.summary.title}><Summary/></Section>
+          <Section name={cv.employmentHistory.title}><EmploymentHistory/></Section>
+          <Section name={cv.education.title}><Education/></Section>
+          <Section name={cv.skillsAndTools.title}><SkillsAndTools/></Section>
         </Container>
       </div>
     );
