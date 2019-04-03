@@ -11,7 +11,7 @@ export default {
     items: [
       "6+ years experiences in web development.",
       "Capable of resolving problems in systematic yet creative way.",
-      "Capable of communicating in Chinese (Native) or in English (Fair).",
+      "Capable of communicating in Chinese (Native) or in English (Professional working proficiency).",
     ],
   },
   employmentHistory: {
@@ -20,7 +20,7 @@ export default {
       {
         companyName: "Taiwan Mobile Co Ltd",
         jobTitle: "Engineer",
-        date: "JUNE 2017 - PRESENT",
+        date: "JUNE 2017 - MAR 2019",
         projects: [
           {
             name: "Myfone Shopping",
