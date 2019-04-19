@@ -9,9 +9,10 @@ export default {
   summary: {
     title: "Summary",
     items: [
-      "6+ years experiences in web development.",
-      "Capable of resolving problems in systematic yet creative way.",
+      "6+ years of experiences in web development.",
+      "Capable of resolving problems in a systematic yet creative way.",
       "Capable of communicating in Chinese (Native) or in English (Professional working proficiency).",
+      "While I’ve more experiences in the web backend development, I’m looking forward to frontend opportunities, which I’m more into.",
     ],
   },
   employmentHistory: {
@@ -25,7 +26,7 @@ export default {
           {
             name: "Myfone Shopping",
             achievements: [
-              "Designed and developed the routing module, which is responsible for mapping urls to their corresponding controllers, for the Myfone shopping website.",
+              "Designed and developed the routing module, which is responsible for mapping URLs to their corresponding controllers, for the Myfone shopping website.",
               "Refactored the category pages of the Myfone shopping website, as makes it 10% faster.",
               "Refactored the product pages of the Myfone shopping website, as makes it 15% faster.",
             ]
@@ -40,14 +41,14 @@ export default {
           {
             name: "The MailChimp Project",
             achievements: [
-              "To synchronize inactive users’ information of Bloomon platform with MailChimp (an Email Marketing Platform), using Laravel with MailChimp api.",
+              "To synchronize inactive users’ information of Bloomon platform with MailChimp (an Email Marketing Platform), using Laravel with MailChimp API.",
               "This project increased the rate of users sticking to Bloomon platform.",
             ]
           },
           {
             name: "Login page 2.0 Project",
             achievements: [
-              "Developed the login page, using React components, React containers, action creators, Redux reducers, mock api.",
+              "Developed the login page, using React components, React containers, action creators, Redux reducers, mock API.",
             ]
           },
           {
@@ -83,14 +84,13 @@ export default {
   skillsAndTools: {
     title: "Skills and Tools",
     skillSet: [
-      "PHP, LARAVEL, PHALCON, COMPOSER",
-      "MSSQL, MYSQL",
       "REACT, REDUX, JAVASCRIPT(ES2015+), WEBPACK, NPM, JQUERY",
       "CSS, SCSS, BOOTSTRAP, SEMANTIC UI",
+      "PHP, LARAVEL, PHALCON, COMPOSER",
+      "MSSQL, MYSQL",
       "GIT",
-      "TRELLO",
       "JAVA, SPRING, MAVEN, APACHE-ANT",
-      "LINUX(CENTOS, REDHAT), DOCKER"
+      "LINUX(CENTOS, REDHAT), DOCKER, TRELLO"
     ]
   }
 };
