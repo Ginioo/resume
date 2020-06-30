@@ -1,6 +1,4 @@
-import state from './../cv';
-
-const CVReducer = () => {
+const CVReducer = state => {
   return state;
 };
 
