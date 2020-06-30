@@ -17,12 +17,23 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"],
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
   "devDependencies": {
+    "cz-conventional-changelog": "3.2.0",
     "node-sass": "^4.11.0",
     "uuid": "^3.3.2"
   },
   "prettier": {
     "singleQuote": true
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
