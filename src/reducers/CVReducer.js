@@ -1,7 +1,7 @@
 import state from '../resume.json';
 
 const CVReducer = () => {
-  return JSON.parse(state);
+  return state;
 };
 
 export default CVReducer;
