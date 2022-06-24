@@ -1,6 +1,6 @@
 ### GINO, FENG-CHIN WU 
 
-CV: [ginioo.com](https://ginioo.com/)
+Résumé  [ginioo.com](https://ginioo.com/)
 
 #### LANGUAGE PROFICIENCY
  

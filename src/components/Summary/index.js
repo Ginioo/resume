@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import uuid from 'uuid';
+import { v4 as uuidv4 } from 'uuid';
 // import styles from './Summary.module.scss';
 
 class Summary extends Component {
@@ -9,7 +9,7 @@ class Summary extends Component {
     return (
       <div id="summary">
         {items && items.map(item => (
-          <ul key={uuid.v4()}>
+          <ul key={uuidv4()}>
             <li>{item}</li>
           </ul>
         ))}

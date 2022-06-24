@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import uuid from 'uuid';
+import { v4 as uuidv4 } from 'uuid';
 import styles from './SkillsAndTools.module.scss';
 
 class SkillsAndTools extends Component {
@@ -9,7 +9,7 @@ class SkillsAndTools extends Component {
     return (
       <div id="skills-and-tools" className={styles.skillSet}>
         {skillSet && skillSet.map(skill => (
-          <ul key={uuid.v4()}>
+          <ul key={uuidv4()}>
             <li>{skill}</li>
           </ul>
         ))}

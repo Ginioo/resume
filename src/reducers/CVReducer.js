@@ -1,7 +1,7 @@
-import state from './../cv';
+import state from '../resume.json';
 
 const CVReducer = () => {
-  return state;
+  return JSON.parse(state);
 };
 
 export default CVReducer;

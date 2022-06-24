@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import uuid from 'uuid';
+import { v4 as uuidv4 } from 'uuid';
 // import styles from './Education.module.scss';
 
 class Education extends Component {
@@ -9,7 +9,7 @@ class Education extends Component {
     return (
       <div id="education">
         {schools && schools.map(school => (
-          <ul key={uuid.v4()}>
+          <ul key={uuidv4()}>
             <li>{school}</li>
           </ul>
         ))}

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import styles from './Job.module.scss';
-import uuid from "uuid";
+import { v4 as uuidv4 } from "uuid";
 
 class Job extends Component {
   render() {
@@ -12,10 +12,10 @@ class Job extends Component {
           <span>{job.jobTitle}, {job.companyName}</span>
           <div className={styles.content}>
             {job.projects && job.projects.map(project => (
-              <div key={uuid.v4()}>
+              <div key={uuidv4()}>
                 <span>{project.name}</span>
                 {project.achievements && project.achievements.map(achievement => (
-                  <ul key={uuid.v4()}>
+                  <ul key={uuidv4()}>
                     <li>{achievement}</li>
                   </ul>
                 ))}
