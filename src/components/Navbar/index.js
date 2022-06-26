@@ -5,15 +5,11 @@ import styles from './NavBar.module.scss';
 
 function NavBar() {
   const { personalInfo } = useResume();
-  const { mobile, email, linkedin, github } = personalInfo;
+  const { email, linkedin, github } = personalInfo;
 
   return (
     <div id="nav-bar" className={styles.navBar}>
       <nav className={styles.nav}>
-          <span className={styles.mobile}>
-            <i className="fas fa-phone-square fa-2x"></i>{mobile}
-          </span>
-
         <a href={`mailto:${email}?Subject=Are%20you%20interested%20in%20this%20offer`} alt="Contact me">
           <i className="fas fa-envelope-square fa-2x"></i>
           <span className={styles.email}>{email}</span>
