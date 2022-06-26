@@ -9,6 +9,8 @@ import WorkExperience from './WorkExperience';
 import Education from './Education';
 import SkillsAndTools from './SkillsAndTools';
 
+import '../index.css';
+
 function App() {
   const { name, summary, workExperience, education, skillsAndTools } = useResume();
 

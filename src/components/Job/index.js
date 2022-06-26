@@ -1,13 +1,15 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import styles from './Job.module.scss';
-import { v4 as uuidv4 } from "uuid";
+import { v4 as uuidv4 } from 'uuid';
 
 class Job extends Component {
   render() {
-    const {job} = this.props;
+    const { job } = this.props;
     return (
       <div id="job" className={styles.job}>
-        <aside className={styles.date}>{job.date}</aside>
+        <aside className={styles.date}>
+          {job.date}
+        </aside>
         <div className={styles.wrapper}>
           <span>{job.jobTitle}, {job.companyName}</span>
           <div className={styles.content}>
