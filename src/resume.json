@@ -22,8 +22,27 @@
         "date": "2019.08 - PRESENT",
         "projects": [
           {
-            "name": "",
-            "achievements": []
+            "name": "Vision One - Endpoint Inventory",
+            "achievements": [
+              "Implement the Endpoint Groups feature, providing customers a way to manage their endpoints by groups.",
+              "Implement the new design of Endpoint List feature.",
+              "Integrated with other apps in Vision One by implementing the Endpoint Selector web component."
+            ]
+          },
+          {
+            "name": "Remote Manager",
+            "achievements": [
+              "Integrated with a survey platform, collecting customers' feedback.",
+              "Refactored legacy dashboard with react-grid-layout.",
+              "Developed and maintained feature of the web console."
+            ]
+          },
+          {
+            "name": "Worry-Free Business Security Services",
+            "achievements": [
+              "Implement the campaign page for new features.",
+              "Developed and maintained feature of the web console."
+            ]
           }
         ]
       },
@@ -35,9 +54,9 @@
           {
             "name": "Myfone Shopping",
             "achievements": [
-              "Designed and developed the routing module, which is responsible for mapping urls to their corresponding controllers, for the Myfone shopping website.",
-              "Refactored the category pages of the Myfone shopping website, as makes it 10% faster.",
-              "Refactored the product pages of the Myfone shopping website, as makes it 15% faster."
+              "Designed and developed the routing module.",
+              "Refactored the category pages of the Myfone shopping website, as made `it 10% faster.",
+              "Refactored the product pages of the Myfone shopping website, as made it 15% faster."
             ]
           }
         ]
@@ -48,22 +67,11 @@
         "date": "2016.5 - 2016.9",
         "projects": [
           {
-            "name": "The MailChimp Project",
+            "name": "bloomon",
             "achievements": [
-              "To synchronize inactive users’ information of Bloomon platform with MailChimp (an Email Marketing Platform), using Laravel with MailChimp api.",
-              "This project increased the rate of users sticking to Bloomon platform."
-            ]
-          },
-          {
-            "name": "Login page 2.0 Project",
-            "achievements": [
-              "Developed the login page, using React components, React containers, action creators, Redux reducers, mock api."
-            ]
-          },
-          {
-            "name": "Fix Issues",
-            "achievements": [
-              "To fix issues related to the purchasing page of Bloomon platform. which was developed using AnglularJS."
+              "Integrated with an email marketing platform, as increased the rate of users sticking to our platform.",
+              "Refactored the login page of the bloomon website, using React.",
+              "Fix issues related to the purchasing page of the bloomon website."
             ]
           }
         ]
@@ -76,7 +84,7 @@
           {
             "name": "Myfone Shopping",
             "achievements": [
-              "Developed new features for both Myfone shopping website and its admin panel.",
+              "Developed new features for both Myfone shopping website and its admin console.",
               "Developed and optimized scattered business logic into reusable modules."
             ]
           }
@@ -96,7 +104,7 @@
       "REACT, REDUX, JAVASCRIPT(ES2015+), WEBPACK, NPM",
       "CSS, HTML, BOOTSTRAP, STYLED-SYSTEM",
       "GIT",
-      "SQL(MSSQL, MYSQL)",
+      "RDBMS(MSSQL, MYSQL)",
       "NODEJS, EXPRESS, GRAPHQL",
       "PHP, LARAVEL, PHALCON, COMPOSER",
       "LINUX(CENTOS, REDHAT), DOCKER",
