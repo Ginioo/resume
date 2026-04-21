@@ -1,13 +1,13 @@
-import { v4 as uuidv4 } from 'uuid';
 import { useResume } from '../../hooks';
 
 function Education() {
   const { education } = useResume();
   const { schools } = education;
+
   return (
     <div id="education">
-      {schools && schools.map(school => (
-        <ul key={uuidv4()}>
+      {schools && schools.map((school, index) => (
+        <ul key={index}>
           <li>{school}</li>
         </ul>
       ))}

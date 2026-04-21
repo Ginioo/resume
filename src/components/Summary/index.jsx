@@ -1,7 +1,4 @@
-import { v4 as uuidv4 } from 'uuid';
 import { useResume } from '../../hooks';
-
-// import styles from './Summary.module.scss';
 
 function Summary() {
   const { summary } = useResume();
@@ -9,8 +6,8 @@ function Summary() {
 
   return (
     <div id="summary">
-      {items && items.map(item => (
-        <ul key={uuidv4()}>
+      {items && items.map((item, index) => (
+        <ul key={index}>
           <li>{item}</li>
         </ul>
       ))}

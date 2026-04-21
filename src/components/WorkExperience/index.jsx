@@ -1,4 +1,3 @@
-import { v4 as uuidv4 } from 'uuid';
 import Job from './../Job';
 import { useResume } from '../../hooks';
 
@@ -8,8 +7,8 @@ function WorkExperience() {
 
   return (
     <div id="employment-history">
-      {jobs && jobs.map(job => (
-        <Job key={uuidv4()} job={job} />
+      {jobs && jobs.map((job, index) => (
+        <Job key={index} job={job} />
       ))}
     </div>
   );

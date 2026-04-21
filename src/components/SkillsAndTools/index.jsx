@@ -1,4 +1,3 @@
-import { v4 as uuidv4 } from 'uuid';
 import styles from './SkillsAndTools.module.scss';
 import { useResume } from '../../hooks';
 
@@ -8,8 +7,8 @@ function SkillsAndTools() {
 
   return (
     <div id="skills-and-tools" className={styles.skillSet}>
-      {skillSet && skillSet.map(skill => (
-        <ul key={uuidv4()}>
+      {skillSet && skillSet.map((skill, index) => (
+        <ul key={index}>
           <li>{skill}</li>
         </ul>
       ))}
