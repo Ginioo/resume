@@ -8,8 +8,9 @@
   "summary": {
     "title": "Summary",
     "items": [
-      "9+ years experiences in web development.",
-      "Capable of resolving problems in systematic yet creative way.",
+      "Frontend engineer with 13+ years of experience building web applications.",
+      "Focused on complex product UI, cross-application features, and leading collaborative delivery from requirements through implementation and validation.",
+      "Since Q1 2026, use AI tools to accelerate frontend development while reviewing and validating generated work.",
       "Capable of communicating in Chinese (Native) or in English (Professional working proficiency)."
     ]
   },
@@ -18,30 +19,68 @@
     "jobs": [
       {
         "companyName": "Trend Micro Inc.",
-        "jobTitle": "Sr. Front-end Developer",
-        "date": "2019.08 - PRESENT",
+        "jobTitle": "Staff Engineer-PDG Developer",
+        "date": "2026 - PRESENT",
+        "projects": [
+          {
+            "name": "Vision One - Log Inspection and Policy Studio",
+            "achievements": [
+              "Develop frontend features, including Log Inspection Custom Rules in Policy Resources and Version Control Policy work in Policy Studio."
+            ]
+          },
+          {
+            "name": "Frontend platform and AI-assisted development",
+            "achievements": [
+              "Used AI tools to upgrade Endpoint Inventory from React 18 to 19 and migrate Tonic UI to the internal Tonic One package across multiple repositories; reviewed and validated the changes.",
+              "Led the Endpoint Inventory RTK Query migration and supported its move from Webpack to Vite."
+            ]
+          }
+        ]
+      },
+      {
+        "companyName": "Trend Micro Inc.",
+        "jobTitle": "Senior Frontend Developer",
+        "date": "2022 - 2026",
+        "projects": [
+          {
+            "name": "Version Control Policies and Unified Policy",
+            "achievements": [
+              "Led frontend delivery for Version Control Policies, then led Squad B in the Unified Policy initiative.",
+              "Coordinated requirements, planning, task breakdown, code reviews, and Taiwan-Ottawa collaboration to deliver the Unified Policy UI.",
+              "Led frontend delivery for Agent Ring and Policy Capability work."
+            ]
+          },
+          {
+            "name": "Vision One - Endpoint Inventory",
+            "achievements": [
+              "Delivered major frontend features, including the Unified Agent Installer and offline package support across applications."
+            ]
+          }
+        ]
+      },
+      {
+        "companyName": "Trend Micro Inc.",
+        "jobTitle": "Junior Frontend Developer",
+        "date": "2019.08 - 2022",
         "projects": [
           {
             "name": "Vision One - Endpoint Inventory",
             "achievements": [
-              "Implement the Endpoint Groups feature, providing customers a way to manage their endpoints by groups.",
-              "Implement the new design of Endpoint List feature.",
-              "Integrated with other apps in Vision One by implementing the Endpoint Selector web component."
+              "Developed the Endpoint Groups feature and improved the Endpoint List experience.",
+              "Built a reusable Endpoint Selector web component for integration with other Vision One apps."
             ]
           },
           {
             "name": "Remote Manager",
             "achievements": [
-              "Integrated with a survey platform, collecting customers' feedback.",
-              "Refactored legacy dashboard with react-grid-layout.",
-              "Developed and maintained feature of the web console."
+              "Integrated a survey platform to collect customer feedback.",
+              "Refactored the legacy dashboard with react-grid-layout and maintained web-console features."
             ]
           },
           {
             "name": "Worry-Free Business Security Services",
             "achievements": [
-              "Implement the campaign page for new features.",
-              "Developed and maintained feature of the web console."
+              "Built campaign pages for new features and maintained web-console features."
             ]
           }
         ]
