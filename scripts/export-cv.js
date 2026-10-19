@@ -107,8 +107,6 @@ async function stopPreview(child) {
 }
 
 async function main() {
-  await run('yarn', ['build']);
-
   const preview = startPreview();
   let browser;
 
