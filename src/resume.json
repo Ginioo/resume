@@ -10,7 +10,7 @@
     "items": [
       "Frontend engineer with 13+ years of experience building web applications.",
       "Focused on complex product UI, cross-application features, and leading collaborative delivery from requirements through implementation and validation.",
-      "Since Q1 2026, use AI tools to accelerate frontend development while reviewing and validating generated work.",
+      "Experienced in using AI tools to accelerate frontend development while reviewing and validating generated work.",
       "Capable of communicating in Chinese (Native) or in English (Professional working proficiency)."
     ]
   },
@@ -20,19 +20,19 @@
       {
         "companyName": "TrendAI (Trend Micro Incorporated)",
         "jobTitle": "Staff Engineer-PDG Developer",
-        "date": "2026 - PRESENT",
+        "date": "2026 – Present",
         "projects": [
           {
             "name": "Vision One - Log Inspection and Policy Studio",
             "achievements": [
-              "Develop frontend features, including Log Inspection Custom Rules in Policy Resources and Version Control Policy work in Policy Studio."
+              "Develop frontend features, including Log Inspection Custom Rules in Policy Resources, Version Control Policy work in Policy Studio, and OneAgent projects."
             ]
           },
           {
             "name": "Frontend platform and AI-assisted development",
             "achievements": [
-              "Used AI tools to upgrade Endpoint Inventory from React 18 to 19 and migrate Tonic UI to the internal Tonic One package across multiple repositories; reviewed and validated the changes.",
-              "Led the Endpoint Inventory RTK Query migration and supported its move from Webpack to Vite."
+              "Used AI tools to upgrade Endpoint Inventory from React 18 to 19.",
+              "Migrated Tonic UI to the internal Tonic One package across multiple repositories; reviewed and validated the changes."
             ]
           }
         ]
@@ -40,20 +40,20 @@
       {
         "companyName": "Trend Micro Inc.",
         "jobTitle": "Senior Frontend Developer",
-        "date": "2022 - 2026",
+        "date": "2022 – 2026",
         "projects": [
           {
             "name": "Version Control Policies and Unified Policy",
             "achievements": [
-              "Led frontend delivery for Version Control Policies, then led Squad B in the Unified Policy initiative.",
-              "Coordinated requirements, planning, task breakdown, code reviews, and Taiwan-Ottawa collaboration to deliver the Unified Policy UI.",
-              "Led frontend delivery for Agent Ring and Policy Capability work."
+              "Led frontend delivery for Version Control Policies, then led Squad B in the Unified Policy initiative, coordinating requirements, planning, task breakdown, code reviews, and Taiwan-Ottawa collaboration to deliver the Unified Policy UI."
             ]
           },
           {
-            "name": "Vision One - Endpoint Inventory",
+            "name": "Vision One - Rainbow & OneAgent",
+            "detail": "Rainbow: 500+ people consolidated 3 overlapping products (Vision One, Apex One, Cloud One) into one platform in 4 months. OneAgent: merging the OneAgent agents from those products into one agent.",
             "achievements": [
-              "Delivered major frontend features, including the Unified Agent Installer and offline package support across applications."
+              "Delivered frontend features across the Rainbow project.",
+              "Built V1ES Endpoint Inventory and the new Unified Agent Installer."
             ]
           }
         ]
@@ -61,7 +61,7 @@
       {
         "companyName": "Trend Micro Inc.",
         "jobTitle": "Junior Frontend Developer",
-        "date": "2019.08 - 2022",
+        "date": "Aug 2019 – 2022",
         "projects": [
           {
             "name": "Vision One - Endpoint Inventory",
@@ -88,29 +88,29 @@
       {
         "companyName": "Taiwan Mobile Co Ltd",
         "jobTitle": "Engineer",
-        "date": "2017.6 - 2019.3",
+        "date": "Jun 2017 – Mar 2019",
         "projects": [
           {
             "name": "Myfone Shopping",
             "achievements": [
               "Designed and developed the routing module.",
-              "Refactored the category pages of the Myfone shopping website, as made `it 10% faster.",
-              "Refactored the product pages of the Myfone shopping website, as made it 15% faster."
+              "Refactored the category pages of the Myfone shopping website, making it 10% faster.",
+              "Refactored the product pages of the Myfone shopping website, making it 15% faster."
             ]
           }
         ]
       },
       {
         "companyName": "Bloomon",
-        "jobTitle": "Full stack web developer",
-        "date": "2016.5 - 2016.9",
+        "jobTitle": "Full Stack Web Developer",
+        "date": "May 2016 – Sep 2016",
         "projects": [
           {
             "name": "bloomon",
             "achievements": [
-              "Integrated with an email marketing platform, as increased the rate of users sticking to our platform.",
+              "Integrated with an email marketing platform, improving user retention.",
               "Refactored the login page of the bloomon website, using React.",
-              "Fix issues related to the purchasing page of the bloomon website."
+              "Fixed issues related to the purchasing page of the bloomon website."
             ]
           }
         ]
@@ -118,7 +118,7 @@
       {
         "companyName": "Taiwan Mobile Co Ltd",
         "jobTitle": "Engineer",
-        "date": "2012.2 - 2016.4",
+        "date": "Feb 2012 – Apr 2016",
         "projects": [
           {
             "name": "Myfone Shopping",
@@ -140,14 +140,16 @@
   "skillsAndTools": {
     "title": "Tech Stack",
     "skillSet": [
-      "REACT, REDUX, JAVASCRIPT(ES2015+), WEBPACK, NPM",
+      "REACT, TYPESCRIPT, REDUX, JAVASCRIPT(ES2020+), WEBPACK, VITE, NPM",
       "CSS, HTML, BOOTSTRAP, STYLED-SYSTEM",
       "GIT",
       "RDBMS(MSSQL, MYSQL)",
       "NODEJS, EXPRESS, GRAPHQL",
       "PHP, LARAVEL, PHALCON, COMPOSER",
-      "LINUX(CENTOS, REDHAT), DOCKER",
-      "TRELLO, JIRA"
+      "LINUX, DOCKER",
+      "JEST, PLAYWRIGHT, ROBOT FRAMEWORK",
+      "TRELLO, JIRA",
+      "AI HARNESS"
     ]
   }
 }
